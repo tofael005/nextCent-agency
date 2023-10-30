@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className='bg-[#F5F7FA] p-5'>
             <div className="flex justify-between items-center">
                 <div>
-                    <Link to="/"><img className="w-36" src={logo} alt="" /></Link> 
+                    <Link to="/"><img className="w-36" src={logo} alt="" /></Link>
                 </div>
 
                 <ul className="flex justify-between items-center gap-6">
@@ -32,9 +32,9 @@ const NavBar = () => {
                     </li>
                 </ul>
 
-                <div className="flex gap-6 items-center">
-                    <button>Login</button>
-                    <button>Sing Up</button>
+                <div className="flex gap-6 items-center font-semibold">
+                    <button className="border rounded-md p-2 border-[#4CAF4F]">Login</button>
+                    <button className="bg-[#4CAF4F] p-2 rounded-md text-white ">Sing Up</button>
                 </div>
             </div>
         </div>
