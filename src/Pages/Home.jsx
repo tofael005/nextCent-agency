@@ -5,6 +5,7 @@ import ManageComunity from './ManageComunity';
 import Unseen from './Unseen';
 import Business from './Business';
 import Design from './Design';
+import Smith from './Smith';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Unseen />
             <Business />
             <Design />
+            <Smith />
         </div>
     );
 };
