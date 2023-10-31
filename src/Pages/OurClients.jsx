@@ -8,7 +8,7 @@ import icon5 from "../assets/brand/Logo6.png"
 
 const OurClients = () => {
     return (
-        <div className='bg-white md:px-28 px-3 mb-14'>
+        <div className='bg-white md:px-28 px-3 mb-20'>
             <div className="my-6 text-center">
                 <h1 className="text-4xl font-semibold">Our Clients</h1>
                 <p className="mb-10 mt-3">We have been working with some Fortune 500+ clients</p>
