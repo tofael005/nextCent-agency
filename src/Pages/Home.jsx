@@ -4,6 +4,7 @@ import OurClients from './OurClients';
 import ManageComunity from './ManageComunity';
 import Unseen from './Unseen';
 import Business from './Business';
+import Design from './Design';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <ManageComunity />
             <Unseen />
             <Business />
+            <Design />
         </div>
     );
 };

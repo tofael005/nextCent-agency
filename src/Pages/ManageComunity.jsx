@@ -11,7 +11,7 @@ const ManageComunity = () => {
 
 
             <div className="grid md:grid-cols-3 gap-8 mt-14 justify-center items-center">
-                <div className='p-3 shadow rounded-md w-full md:h-[250px]'>
+                <div className='p-3 shadow rounded-md md:h-[250px]'>
                     <img className='block mx-auto w-[50px] h-[50px]' src={icon} alt="" />
                     <div className='p-3'>
                         <h1 className='md:text-2xl font-semibold mb-3'>Membership <br /> Organisations</h1>
