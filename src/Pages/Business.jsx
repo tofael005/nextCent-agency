@@ -23,22 +23,22 @@ const Business = () => {
                     <div className="flex gap-6 items-center md:ml-0 ml-20">
                         <img className="w-[70px] h-[70px]" src={icon1} alt="" />
                         <div>
-                            <h1 className="md:text-4xl font-bold mb-2 text-2xl">2,245,341</h1>
-                            <p>Members</p>
+                            <h1 className="md:text-4xl font-bold mb-2 text-2xl">46,328</h1>
+                            <p>Club's</p>
                         </div>
                     </div>
                     <div className="flex gap-6 items-center md:ml-0 ml-20">
                         <img className="w-[70px] h-[70px]" src={icon2} alt="" />
                         <div>
-                            <h1 className="md:text-4xl font-bold mb-2 text-2xl">2,245,341</h1>
-                            <p>Members</p>
+                            <h1 className="md:text-4xl font-bold mb-2 text-2xl">828,867</h1>
+                            <p>Event Booking</p>
                         </div>
                     </div>
                     <div className="flex gap-6 items-center md:ml-0 ml-20">
                         <img className="w-[70px] h-[70px]"src={icon3} alt="" />
                         <div>
-                            <h1 className="md:text-4xl font-bold mb-2 text-2xl">2,245,341</h1>
-                            <p>Members</p>
+                            <h1 className="md:text-4xl font-bold mb-2 text-2xl">1,926,436</h1>
+                            <p>Payment</p>
                         </div>
                     </div>
                 </div>
