@@ -20,8 +20,8 @@ const Smith = () => {
                     <h1 className="my-4 md:text-4xl text-3xl text-[#4CAF4F] font-semibold text-center md:text-left">Tim Smith</h1>
                     <p className="mb-5 text-center md:text-left">British Dragon Boat Racing Association</p>
 
-                    <div className="grid md:grid-cols-2 items-center gap-6">
-                        <div className='grid grid-cols-3 md:grid-cols-6 gap-6 justify-center items-center md:ml-0 ml-10 my-5'>
+                    <div className="grid md:grid-cols-2 items-center gap-6 justify-center">
+                        <div className='grid grid-cols-3 md:grid-cols-6 gap-6 justify-center items-center md:ml-0 ml-8 my-5'>
                             <img className="md:w-[75px] md:h-[40px]" src={icon} alt="" />
                             <img className="md:w-[75px] md:h-[40px]" src={icon2} alt="" />
                             <img className="md:w-[75px] md:h-[40px]" src={icon3} alt="" />
@@ -30,10 +30,12 @@ const Smith = () => {
                             <img className="md:w-[75px] md:h-[40px]" src={icon6} alt="" />
                         </div>
 
-                        <Link to="/customer" className="flex items-center gap-2 text-[#4CAF4F] text-2xl font-semibold md:ml-0 ml-14 hover:bg-[#4CAF4F] hover:text-white duration-500 px-5 py-2 rounded-md">
-                            <h1 >Meet all customers</h1>
-                            <FiArrowRightCircle />
-                        </Link>
+                        <div className='-md:ml-6 -ml-0'>
+                            <Link to="/customer" className="flex items-center text-center gap-2 justify-center mx-auto text-[#4CAF4F] text-2xl font-semibold md:ml-0  hover:bg-[#4CAF4F] hover:text-white duration-500 px-5 py-2 rounded-md">
+                                <h1 >Meet all customers</h1>
+                                <FiArrowRightCircle />
+                            </Link>
+                        </div>
 
                     </div>
                 </div>
