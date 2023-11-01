@@ -1,5 +1,7 @@
 import React from 'react';
 import imga from "../assets/images/image1.png"
+import imga2 from "../assets/images/image2.png"
+import imga3 from "../assets/images/image3.png"
 
 
 import { FiArrowRightCircle } from 'react-icons/fi';
