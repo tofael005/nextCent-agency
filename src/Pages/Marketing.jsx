@@ -25,7 +25,7 @@ const Marketing = () => {
                     </div>
                 </div>
                 <div className='relative mb-28'>
-                    <img className='w-full' src={imga} alt="" />
+                    <img className='w-full' src={imga2} alt="" />
                     <div className="bg-slate-100 w-[300px] md:ml-12 ml-8 absolute -mt-20 p-4 rounded-md shadow">
                         <h1 className='text-lg text-center font-semibold mb-4'>Creating Streamlined <br /> Safeguarding Processes with <br /> OneRen</h1>
                         <div className='flex gap-2 items-center justify-center text-[#4CAF4F] text-xl font-semibold md:ml-0 ml-14 hover:bg-[#4CAF4F] hover:text-white duration-500 px-5 py-2 rounded-md'>
@@ -35,7 +35,7 @@ const Marketing = () => {
                     </div>
                 </div>
                 <div className='relative mb-28'>
-                    <img className='w-full' src={imga} alt="" />
+                    <img className='w-full' src={imga3} alt="" />
                     <div className="bg-slate-100 w-[300px] md:ml-12 ml-8 absolute -mt-20 p-4 rounded-md shadow">
                         <h1 className='text-lg text-center font-semibold mb-4'>Creating Streamlined <br /> Safeguarding Processes with <br /> OneRen</h1>
                         <div className='flex gap-2 items-center justify-center text-[#4CAF4F] text-xl font-semibold md:ml-0 ml-14 hover:bg-[#4CAF4F] hover:text-white duration-500 px-5 py-2 rounded-md'>
