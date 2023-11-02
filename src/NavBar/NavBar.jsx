@@ -49,7 +49,7 @@ const NavBar = () => {
 
                     <div className="flex gap-2 items-center font-semibold md:ml-8">
                         <Link to="/login"><button className='text-[#4CAF4F] px-5 py-2 font-bold rounded-md'>Login</button></Link>
-                        <Link to="/sinup"><button className='bg-[#4CAF4F] text-white px-5 py-2 font-bold duration-500 border-[#4CAF4F] hover:bg-transparent hover:text-[#4CAF4F] rounded-md'>Sing Up</button></Link>
+                        <Link to="/sinup"><button className='bg-[#4CAF4F] text-white px-5 py-2 font-bold duration-500 border-[#4CAF4F] hover:bg-transparent hover:text-[#4CAF4F] rounded-md'>Sign Up</button></Link>
                     </div>
                 </div>
             </div>
