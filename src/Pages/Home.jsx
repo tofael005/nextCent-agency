@@ -21,6 +21,7 @@ const Home = () => {
             <Smith />
             <Marketing />
             <Getdemo />
+            <Getdemo />
         </div>
     );
 };
