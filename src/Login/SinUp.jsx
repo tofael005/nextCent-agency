@@ -12,7 +12,7 @@ const SinUp = () => {
                 <input className="border mb-4 p-3 w-full rounded-md" type="text" name='name' placeholder='User name' />
                 <label className="text-lg font-semibold" htmlFor="">Enter email</label> <br />
                 <input className="border mb-4 p-3 w-full rounded-md" type="email" name="email" id="" placeholder='Enter your email' /><br />
-                <label className="text-lg font-semibold" htmlFor="">Eneter password</label> <br />
+                <label className="text-lg font-semibold" htmlFor="">Enter password</label> <br />
                 <input className="border mb-8 p-3 w-full rounded-md" type="password" name="password" id="" placeholder='Enter your password' /> <br />
                 <input className='bg-[#4CAF4F] cursor-pointer text-white p-3 w-full font-bold duration-500 border border-[#4CAF4F] hover:bg-transparent hover:text-[#4CAF4F] rounded-md' type="button" value="Sign-Up" />
                 <p className="text-center my-5">Already have an account? <Link to="/login"><span className="font-semibold text-blue-600">Login</span></Link></p>
