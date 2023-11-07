@@ -19,9 +19,20 @@ const About = () => {
                 
                 <p className="mt-2"><span className="font-bold">Team:</span>BioTech Connect is staffed with a diverse team of experts, including bioinformaticians, biologists, data scientists, software developers, project managers, and marketing specialists. Our interdisciplinary approach ensures that we understand the unique challenges and opportunities in the bio industry.BioTech Connect is your trusted partner for digital services in the bio industry. We look forward to helping you bridge technology and biology to achieve your goals and make a meaningful impact in the world of biotechnology.meaningful impact in the world of biotechnology.</p>
             </div>
-
-            <div>
-                
+                    <h1>Why Choose BioTech Connect:</h1>
+            <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                    <p><span className="font-bold">Specialized Expertise:</span> We are at the intersection of biology and technology, ensuring that our clients receive solutions that are tailored to their specific needs.</p>
+                </div>
+                <div>
+                    <p><span className="font-bold">Innovation:</span> We stay up-to-date with the latest advancements in the bio industry and technology, allowing us to offer cutting-edge services to our clients.</p>
+                </div>
+                <div>
+                    <p><span className="font-bold">Client-Centric Approach: </span>  We work closely with our clients to understand their goals and challenges, providing customized solutions that meet their objectives.</p>
+                </div>
+                <div>
+                    <p><span className="font-bold">Client-Centric Approach: </span>  We work closely with our clients to understand their goals and challenges, providing customized solutions that meet their objectives.</p>
+                </div>
             </div>
 
         </div>
