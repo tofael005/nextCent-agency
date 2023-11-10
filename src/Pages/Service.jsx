@@ -7,9 +7,9 @@ const Service = () => {
             <div className="grid md:grid-cols-4 gap-4">
                 <div>
                     <img className='rounded-md hover:shadow-md duration-300 hover:shadow-black/50 scale-100 hover:scale-95' src={iamge1} alt="" />
-                    <div>
+                    <div className="flex items-center justify-center gap-2">
                         <h1>Digital Marketing</h1>
-                        <p>ghfr</p>
+                        <p>1.5 month</p>
                     </div>
                 </div>
             </div>
