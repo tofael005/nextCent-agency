@@ -1,12 +1,13 @@
 import React from 'react';
+import iamge1 from "../assets/service/service1.jpg"
 
 const Service = () => {
     return (
-        <div>
-            <div>
+        <div className='mt-10 px-3'>
+            <div className="grid md:grid-cols-4 gap-4">
                 <div>
-                    <h1>Creating Streamlined Safeguarding Processes with OneRen</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo rem necessitatibus ut fugiat? Dolore laborum fugit repellendus explicabo dolorem in commodi, adipisci, fugiat quisquam debitis laudantium! Mollitia sed voluptatem id iusto quia? Natus eos at error doloremque eligendi, nam porro ex nostrum, deserunt consectetur sequi laudantium animi! Adipisci, reprehenderit culpa.</p>
+                    <img className='rounded-md hover:shadow-md duration-300 hover:shadow-black/50 scale-100 hover:scale-95' src={iamge1} alt="" />
+                    <h1>Digital Marketing</h1>
                 </div>
             </div>
         </div>
