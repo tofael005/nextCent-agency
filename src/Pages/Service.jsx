@@ -3,6 +3,10 @@ import iamge1 from "../assets/service/service1.jpg"
 import iamge2 from "../assets/service/service2.jpg"
 import iamge3 from "../assets/service/service3.jpg"
 import iamge4 from "../assets/service/service4.jpg"
+import iamge5 from "../assets/service/service5.jpg"
+import iamge6 from "../assets/service/service6.jpg"
+import iamge7 from "../assets/service/service7.jpg"
+import iamge8 from "../assets/service/service8.jpg"
 
 const Service = () => {
     return (
@@ -38,7 +42,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className='rounded-md hover:shadow-md duration-300 text-transparent hover:text-black cursor-pointer p-2'>
-                    <img className='rounded-md h-[200px] w-full' src={iamge1} alt="" />
+                    <img className='rounded-md h-[200px] w-full' src={iamge5} alt="" />
                     <div className='flex justify-between items-center mt-3 '>
                         <h1 className='font-bold text-xl'>Digital Marketing</h1>
                         <p className='hover:text-blue-600 font-semibold'>Details</p>
