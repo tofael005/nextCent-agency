@@ -1,4 +1,3 @@
-import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react';
 import AllProduct from './AllProduct';
 
@@ -10,7 +9,7 @@ const Product = () => {
         .then(res => res.json())
         .then(data => setCard(data))
 
-    }, [])
+    }, [] )
     return (
         <div className="grid md:grid-cols-2 gap-6">
           {
