@@ -1,6 +1,7 @@
 import React from 'react';
 
 const AllProduct = ({singleCard}) => {
+    console.log(singleCard)
     const { image, title, description } = singleCard;
     return (
         <div>

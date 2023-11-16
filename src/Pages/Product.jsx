@@ -5,11 +5,11 @@ const Product = () => {
     const [cards, setCard] = useState([])
 
     useEffect(() => {
-        fetch("data.json")
+        fetch("/data.json")
         .then(res => res.json())
         .then(data => setCard(data))
 
-    }, [] )
+    }, [])
     return (
         <div className="grid md:grid-cols-2 gap-6">
           {
