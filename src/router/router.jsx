@@ -10,6 +10,7 @@ import LogIn from "../Login/LogIn";
 import SinUp from "../Login/SinUp";
 import Customer from "../Pages/Customer";
 
+
 const router = createBrowserRouter ([
     {
         path: "/",
