@@ -4,7 +4,7 @@ const AllProduct = ({singleCard}) => {
     const {image, title, description} = singleCard;
     return (
         <div>
-            <img src="" alt="" />
+            <img src={image} alt="" />
             <h1>{title}</h1>
         </div>
     );
